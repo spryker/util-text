@@ -5,10 +5,10 @@
  * Use of this software requires acceptance of the Evaluation License Agreement. See LICENSE file.
  */
 
-namespace Functional\Spryker\Zed\UtilText\Business;
+namespace Functional\Spryker\Service\UtilText;
 
 use Codeception\TestCase\Test;
-use Spryker\Zed\UtilText\Business\UtilTextFacade;
+use Spryker\Service\UtilText\UtilTextService;
 
 /**
  * @group Functional
@@ -22,7 +22,7 @@ class UtilTextFacadeTest extends Test
 {
 
     /**
-     * @var \Spryker\Zed\UtilText\Business\UtilTextFacade
+     * @var \Spryker\Service\UtilText\UtilTextService
      */
     protected $utilTextFacade;
 
@@ -33,7 +33,7 @@ class UtilTextFacadeTest extends Test
     {
         parent::setUp();
 
-        $this->utilTextFacade = new UtilTextFacade();
+        $this->utilTextFacade = new UtilTextService();
     }
 
     /**

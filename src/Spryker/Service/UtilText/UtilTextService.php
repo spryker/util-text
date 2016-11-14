@@ -5,14 +5,14 @@
  * Use of this software requires acceptance of the Evaluation License Agreement. See LICENSE file.
  */
 
-namespace Spryker\Zed\UtilText\Business;
+namespace Spryker\Service\UtilText;
 
-use Spryker\Zed\Kernel\Business\AbstractFacade;
+use Spryker\Service\Kernel\AbstractService;
 
 /**
- * @method \Spryker\Zed\UtilText\Business\UtilTextBusinessFactory getFactory()
+ * @method \Spryker\Service\UtilText\UtilTextServiceFactory getFactory()
  */
-class UtilTextFacade extends AbstractFacade implements UtilTextFacadeInterface
+class UtilTextService extends AbstractService implements UtilTextServiceInterface
 {
 
     /**
@@ -49,5 +49,4 @@ class UtilTextFacade extends AbstractFacade implements UtilTextFacadeInterface
             ->createStringGenerator()
             ->generateRandomString($length);
     }
-
 }

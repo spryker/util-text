@@ -5,7 +5,7 @@
  * Use of this software requires acceptance of the Evaluation License Agreement. See LICENSE file.
  */
 
-namespace Spryker\Shared\UtilText;
+namespace Spryker\Service\UtilText\Model;
 
 class Slug implements SlugInterface
 {

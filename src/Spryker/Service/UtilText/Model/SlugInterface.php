@@ -5,10 +5,16 @@
  * Use of this software requires acceptance of the Evaluation License Agreement. See LICENSE file.
  */
 
-namespace Spryker\Zed\UtilText;
+namespace Spryker\Service\UtilText\Model;
 
-use Spryker\Zed\Kernel\AbstractBundleConfig;
-
-class UtilTextConfig extends AbstractBundleConfig
+interface SlugInterface
 {
+
+    /**
+     * @param string $value
+     *
+     * @return string
+     */
+    public function generate($value);
+
 }
