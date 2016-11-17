@@ -1,14 +1,13 @@
 <?php
-
 /**
  * Copyright © 2016-present Spryker Systems GmbH. All rights reserved.
  * Use of this software requires acceptance of the Evaluation License Agreement. See LICENSE file.
  */
 
-namespace Spryker\Zed\UtilText;
+namespace Spryker\Service\UtilText;
 
-use Spryker\Zed\Kernel\AbstractBundleConfig;
+use Spryker\Service\Kernel\AbstractBundleDependencyProvider;
 
-class UtilTextConfig extends AbstractBundleConfig
+class UtilTextDependencyProvider extends AbstractBundleDependencyProvider
 {
 }

@@ -1,20 +1,18 @@
 <?php
-
 /**
  * Copyright © 2016-present Spryker Systems GmbH. All rights reserved.
  * Use of this software requires acceptance of the Evaluation License Agreement. See LICENSE file.
  */
+namespace Spryker\Service\UtilText\Model;
 
-namespace Spryker\Shared\UtilText;
-
-interface SlugInterface
+interface StringGeneratorInterface
 {
 
     /**
-     * @param string $value
+     * @param int $length
      *
      * @return string
      */
-    public function generate($value);
+    public function generateRandomString($length);
 
 }
